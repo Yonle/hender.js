@@ -22,7 +22,7 @@
 // SOFTWARE.
 
 function hender(pfx) {
-  return (render = (str, joinStr) =>
+  return (str, joinStr) =>
     str
       .split(pfx || ".[")
       .filter((i) => i.length)
@@ -32,7 +32,7 @@ function hender(pfx) {
         let elname = splitted[0];
         return `<${elname}>` + splitted.slice(1).join(" ") + `</${elname}>`;
       })
-      .join(joinStr || ""));
+      .join(joinStr || "");
 }
 
 // Node.js support
