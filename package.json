@@ -1,0 +1,25 @@
+{
+  "name": "hender",
+  "version": "1.0.0",
+  "description": "A tiny, Handy static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yonle/hender.js.git"
+  },
+  "keywords": [
+    "static-site",
+    "site",
+    "generator",
+    "html"
+  ],
+  "author": "Yonle <yonle@duck.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yonle/hender.js/issues"
+  },
+  "homepage": "https://github.com/Yonle/hender.js#readme"
+}
